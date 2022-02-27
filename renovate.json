@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "config:base",
+    "schedule:quarterly"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": [
+        "patch"
+      ],
+      "enabled": false
+    },
+    {
+      "groupName": "Android Gradle Plugin",
+      "matchPackageNames": [
+        "com.android.application",
+        "com.android.library"
+      ]
+    }
+  ]
+}
