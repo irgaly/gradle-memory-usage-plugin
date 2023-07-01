@@ -7,7 +7,7 @@ pluginManagement {
         gradlePluginPortal()
     }
     plugins {
-        kotlin("jvm") version "1.6.10"
+        kotlin("jvm") version "1.8.22"
         id("com.gradle.plugin-publish") version "0.21.0"
     }
 }
